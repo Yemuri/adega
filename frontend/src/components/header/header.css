@@ -31,7 +31,7 @@
 .modals-container {
   background-color: #4c182143;
   display: flex;
-  width: fit-content;
+  width: 70vw;
   height: 75%;
   justify-content: space-between;
   position: relative;
@@ -43,7 +43,7 @@
 
 @media (min-width: 1920px){
   .modals-container{
-    max-width: 800px;
+    max-width: 60vw;
   }
 }
 
