@@ -1,0 +1,151 @@
+.main-home-container {
+  /* border: solid 1px red; */
+  width: 90vw;
+  margin-left: 5vw;
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+  height: 150vh;
+}
+
+.main-home-menu-container {
+  /* border: solid blue 2px; */
+  background-color: #ffffff50;
+  width: 20vw;
+  height: 40vh;
+  padding-left: 0.6rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.2rem;
+  box-shadow: 0.313rem 0.313rem 0.313rem #73727220;
+}
+
+.main-home-wine-container {
+  /* border: solid purple 1px; */
+  background-color: #ffffff50;
+  width: 50vw;
+  margin-left: 4.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0.313rem 0.313rem 0.313rem #73727220;
+}
+
+.main-home-pre-modal {
+  /* border: solid blue 1px; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+a {
+  cursor: pointer;
+}
+/* MODAL ADD WINE */
+.modal1-container {
+  /* border: solid red 1px; */
+  background-color: #4c182143;
+  display: flex;
+  width: 80%;
+  height: 90%;
+  justify-content: space-between;
+  margin-left: 12%;
+  margin-top: 2%;
+  border-bottom-right-radius: 4rem;
+}
+
+.modalAdd-text-structure input:focus, .modalAdd-text-structure select {
+  outline: none;
+  border: solid 1px gray;
+}
+
+.modalAdd-text-structure form, .modalAdd-text-structure form input:focus{
+  outline: none;
+}
+
+.modalAdd-text-structure{
+  /* border: solid blue 2px; */
+  display: flex;
+  flex-direction: column;
+
+}
+
+textarea, textarea:focus{
+  resize: none;
+  border: solid 1px gray;
+  outline: none;
+}
+
+.modalAdd-text-structure form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.modalAdd-text-structure input {
+  border: solid ;
+  margin: 10px 0 10px 0;
+  background-color: #eae8e88e;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+.modal-text input:focus {
+  outline: none;
+}
+
+button {
+  background-color: white;
+
+  width: 8.333vw;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.modal1-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#add-wine {
+  background-color: #c62b5c;
+  color: white;
+}
+
+#add-wine:hover{
+  background-color: #b12551;
+}
+
+#cancel {
+  position: relative;
+  border: 1px solid #c62b5c;
+}
+
+#cancel:hover{
+  border: 1.8px solid #b12551;
+}
+
+
+.wines-pic {
+  border-radius: 1rem;
+  /* border: solid green 3px; */
+  width: fit-content;
+}
+
+#make-login {
+  font-size: 2.5vw;
+}
+
+#acc {
+  margin-top: 1rem;
+  justify-content: center;
+}

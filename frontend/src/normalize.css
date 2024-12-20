@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap'); 
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+
+body{
+    background-color: #4c183819;
+}
+
+.font-style {
+    font-family: "Gilda Display", serif;
+    font-weight: bolder;
+    color: #7a2849;
+    font-size: 2.2rem;
+    font-style: normal;
+    text-decoration: none;
+  }

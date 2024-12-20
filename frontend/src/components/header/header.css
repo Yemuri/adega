@@ -1,0 +1,135 @@
+.general-container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 3vw;
+
+  height: 3rem;
+  align-items: center;
+}
+
+
+
+.general-container input {
+  outline: none;
+}
+
+.general-container input {
+  background-color: #eae8e88e;
+  width: 25vw;
+  height: 5vh;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  border: solid 0.063rem rgba(128, 128, 128, 0.473);
+}
+
+.general-container a {
+  cursor: pointer;
+  
+}
+
+/* MODAL */
+.modal-container {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 75%;
+  justify-content: space-between;
+/* border: solid red 1px; */
+  margin-left: 12%;
+  margin-top: 8%;
+  border-bottom-right-radius: 4rem;
+}
+
+.modal-text {
+  margin-top: 2rem;
+
+  box-shadow: 0.313rem 0.313rem 0.313rem #00000015;
+  padding: 1rem;
+
+  justify-content: center;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  /* border: solid 1px blue; */
+}
+
+.modal-text form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-text input {
+  margin-top: 1rem;
+  background-color: #eae8e88e;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+.modal-text input:focus {
+  outline: none;
+}
+
+button {
+  background-color: white;
+
+  width: 8.333vw;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.modal-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#enter {
+  background-color: #c62b5c;
+  color: white;
+}
+
+#enter:hover{
+  background-color: #b12551;
+}
+
+#acc {
+  position: relative;
+  border: 1px solid #c62b5c;
+}
+
+.but-acc{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#acc:hover{
+  border: 1.8px solid #b12551;
+}
+
+#forgot {
+  border: solid #c62b5c 1px;
+}
+
+#forgot:hover{
+  border: 1.5px solid #b12551;
+}
+.glass-pic {
+  border-radius: 1rem;
+  /* border: solid green 3px; */
+  width: fit-content;
+}
+
+#make-login {
+  font-size: 2.5vw;
+}
+
+#acc {
+  margin-top: 1rem;
+  justify-content: center;
+}

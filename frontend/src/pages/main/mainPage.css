@@ -1,0 +1,51 @@
+.main-general-container{
+    /* border: solid 1px red; */
+    width: 90vw;
+    
+    margin-left: 5vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.form-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 16px;
+    height: fit-content;
+    background-color: #ffffff04;
+    box-shadow: 0.313rem 0.313rem 0.938rem #73727212;
+
+}
+
+.form-infos p{
+    font-family: "Gilda Display", serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.option input[type="radio"]{
+    margin-right: 8px;
+}
+
+.main-general-container .wine-container{
+    /* border: 1px solid blue; */
+    position: relative;
+    width: 50vw;
+    height: 150vh;
+    right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff50;
+    box-shadow: 0.313rem 0.313rem 0.313rem #73727212;
+}
+
