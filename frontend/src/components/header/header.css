@@ -10,8 +10,6 @@
   align-items: center;
 }
 
-
-
 .general-container input {
   outline: none;
 }
@@ -27,33 +25,38 @@
 
 .general-container a {
   cursor: pointer;
-  
 }
 
 /* MODAL */
-.modal-container {
-  background-color: white;
+.modals-container {
+  background-color: #4c182143;
   display: flex;
-  width: 100%;
+  width: fit-content;
   height: 75%;
   justify-content: space-between;
-/* border: solid red 1px; */
-  margin-left: 12%;
-  margin-top: 8%;
+  position: relative;
+  left: 20%;
+  top: 20%;
   border-bottom-right-radius: 4rem;
+  /* border: red solid 2px; */
 }
 
+@media (min-width: 1920px){
+  .modals-container{
+    max-width: 800px;
+  }
+}
+
+
 .modal-text {
-  margin-top: 2rem;
-
-  box-shadow: 0.313rem 0.313rem 0.313rem #00000015;
-  padding: 1rem;
-
-  justify-content: center;
-  width: fit-content;
-  display: flex;
   flex-direction: column;
-  /* border: solid 1px blue; */
+  justify-content: center;
+  position: relative;
+  height: fit-content;
+  margin: 1rem;
+  box-shadow: 0.313rem 0.313rem 0.313rem #00000015;
+  display: flex;
+  border: solid blue 2px;
 }
 
 .modal-text form {
@@ -93,7 +96,7 @@ button {
   color: white;
 }
 
-#enter:hover{
+#enter:hover {
   background-color: #b12551;
 }
 
@@ -102,13 +105,13 @@ button {
   border: 1px solid #c62b5c;
 }
 
-.but-acc{
+.but-acc {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
 }
 
-#acc:hover{
+#acc:hover {
   border: 1.8px solid #b12551;
 }
 
@@ -116,7 +119,7 @@ button {
   border: solid #c62b5c 1px;
 }
 
-#forgot:hover{
+#forgot:hover {
   border: 1.5px solid #b12551;
 }
 .glass-pic {

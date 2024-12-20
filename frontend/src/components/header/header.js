@@ -40,7 +40,7 @@ export default function NavHeader() {
       <Modal
         isOpen={openedModal}
         onRequestClose={closeModal}
-        className="modal-container"
+        className="modals-container"
         >
         <img src={glass} alt="" className="glass-pic" />
 
@@ -48,7 +48,7 @@ export default function NavHeader() {
         <div className="modal-text">
             
 
-          <h2 style={{fontSize: "1.8vw"}}>Compartilhe seus vinhos preferidos</h2>
+          <h2 style={{fontSize: "1.8vw"}}>Compartilhee seus vinhos preferidos</h2>
           <h2 style={{fontSize: "2.5vw"}} id="make-login">Faça Login</h2>
           
             

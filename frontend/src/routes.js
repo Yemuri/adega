@@ -13,7 +13,7 @@ export default function Rotas (){
         <NavHeader />
         <ArrowUp />
         <Routes>
-            <Route path='/' element={<MainPage />} />
+            <Route path='/adega' element={<MainPage />} />
             <Route path='/my-profile' element={<ProfilePage />} />
         </Routes>
     </BrowserRouter>
