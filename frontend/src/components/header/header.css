@@ -1,3 +1,4 @@
+
 .general-container {
   width: 90vw;
   display: flex;
@@ -41,11 +42,6 @@
   /* border: red solid 2px; */
 }
 
-@media (min-width: 1920px){
-  .modals-container{
-    max-width: 70vw;
-  }
-}
 
 
 .modal-text {
@@ -135,4 +131,5 @@ button {
 #acc {
   margin-top: 1rem;
   justify-content: center;
+  width: fit-content;
 }

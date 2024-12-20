@@ -31,7 +31,7 @@ export default function NavHeader() {
         <LoopVideo />
       </div>
     <div className="general-container">
-      <Link to='/' className="font-style">Notas & Uvas: Registros de Adega</Link>
+      <Link to='/adega' className="font-style">Notas & Uvas: Registros de Adega</Link>
       <input type="search" id="wine-search" placeholder="Pesquisar vinhos..." />
       <a onClick={openModal}>
         <FiUser size={25} />
