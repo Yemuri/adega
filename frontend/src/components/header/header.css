@@ -42,10 +42,10 @@
   /* border: red solid 2px; */
 }
 
-@media(max-width:2561px){
+@media(min-width:2561px){
   .modals-container{
     width: 50vw;
-    color: red
+    color: red;
   }
 
 }
