@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/adega/static/css/main.9c44f153.css",
+    "main.css": "/adega/static/css/main.b7ef270e.css",
     "main.js": "/adega/static/js/main.7137dcc4.js",
     "static/media/wine-video2.mp4": "/adega/static/media/wine-video2.90255e89a0482ac46ad1.mp4",
     "static/media/glass.jpg": "/adega/static/media/glass.840a8509923378982335.jpg",
     "static/media/wines.jpeg": "/adega/static/media/wines.aac7ab3503b73dfefcba.jpeg",
     "index.html": "/adega/index.html",
-    "main.9c44f153.css.map": "/adega/static/css/main.9c44f153.css.map",
+    "main.b7ef270e.css.map": "/adega/static/css/main.b7ef270e.css.map",
     "main.7137dcc4.js.map": "/adega/static/js/main.7137dcc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c44f153.css",
+    "static/css/main.b7ef270e.css",
     "static/js/main.7137dcc4.js"
   ]
 }
