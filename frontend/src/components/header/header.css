@@ -42,10 +42,9 @@
   /* border: red solid 2px; */
 }
 
-@media(min-width:2561px){
+@media(min-width:2019px){
   .modals-container{
-    width: 50vw;
-    color: red;
+    color: blue;
   }
 
 }
