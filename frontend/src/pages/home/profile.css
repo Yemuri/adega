@@ -155,8 +155,7 @@ button {
 }
 @media(min-width:2019px){
   .modal1-container{
-    width: 100vw;
-    border: solid blue 2px;
+    width: 45vw;
   }
 
 }
